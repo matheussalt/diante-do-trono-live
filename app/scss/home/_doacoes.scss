@@ -1,0 +1,123 @@
+.doacoes {
+  width: 100%;
+  padding: 32px 0 64px;
+}
+
+.doacoes-wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.doacoes-item {
+  position: relative;
+  width: 100%;
+  height: 110vw;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
+
+  .doacoes-item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.doacoes-item:nth-of-type(1)::before {
+  background-image: linear-gradient(to top, $red, $transparentRed);
+}
+
+.doacoes-item:nth-of-type(2)::before {
+  background-image: linear-gradient(to top, $orange, $transparentOrange);
+}
+
+.doacoes-item:nth-of-type(3)::before {
+  background-image: linear-gradient(to top, $green, $transparentGreen);
+}
+
+.doacoes-item:nth-of-type(4)::before {
+  background-image: linear-gradient(to top, $blue, $transparentBlue);
+}
+
+.doacoes-item-cta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+
+  .doacoes-item-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+
+    h3 {
+      color: #fff;
+      font-size: 10vw;
+      letter-spacing: 0.01rem;
+      line-height: 11vw;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    img {
+      width: 60px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .doacoes-item-buttons,
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .doacoes {
+    padding: 64px 0;
+  }
+
+  .doacoes-wrapper {
+    margin-top: 64px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .doacoes-item {
+    position: relative;
+    width: 100%;
+    height: 460px;
+  }
+
+  .doacoes-item-cta .doacoes-item-title h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .doacoes-item {
+    padding: 64px;
+  }
+}

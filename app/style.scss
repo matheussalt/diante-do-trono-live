@@ -1,9 +1,31 @@
+$yellow: #ffb400;
+$darkYellow: #e29b00;
+$red: #c02b2b;
+$transparentRed: #c02b2b00;
+$orange: #f19645;
+$transparentOrange: #f1964500;
+$green: #51ba50;
+$transparentGreen: #52ba5000;
+$blue: #89b3db;
+$transparentBlue: #89b3db00;
+$lightGrey: #ededed;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 ul,
@@ -16,6 +38,83 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  margin: 32px 0 16px;
+  color: #000;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+
+    &.red {
+      color: $red;
+    }
+
+    &.white {
+      color: #fff;
+    }
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  padding: 16px 32px;
+  background-color: $yellow;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s background-color;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $darkYellow;
+  }
+
+  &.btn-white {
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 8px;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .btn {
+    padding: 16px 64px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  h2 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+
 @import './scss/header/header';
+@import './scss/home/index';
 @import './scss/footer/footer';
 @import './animation';

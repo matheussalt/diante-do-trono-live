@@ -26,12 +26,14 @@
 
   <title><?php wp_title( '|', true, 'right' ); ?></title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="<?=get_template_directory_URI()?>/style.css" />
+
   <link rel="icon" type="image/png" href="<?=get_template_directory_URI()?>/img/favicon.png" />
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
   <?php wp_head(); ?>
-  <?php include "funcoesSalt.php";  ?>
 
 </head>
 
@@ -49,8 +51,14 @@
   }(document, 'script', 'facebook-jssdk'));
   </script>
 
-  <header class="header">
-    <div>
-      <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
-    </div>
+  <header class="header fadeDown" data-anima-tempo>
+    <nav>
+      <a href="http://missaodt.org/" target="_blank">
+        <img src="<?=get_template_directory_URI()?>/img/src/logo-white.png" alt="Logotipo Missão DT" />
+      </a>
+
+      <a href="#" class="btn">
+        Doar
+      </a>
+    </nav>
   </header>

@@ -11,8 +11,42 @@
 ?>
 
 <footer class="footer">
-  <? // echo do_shortcode(''); ?>
+  <div class="container">
+    <a href="http://missaodt.org" target="_blank">
+      <img src="<?=get_template_directory_URI()?>/img/src/logo-black.png" alt="Logotipo Missão DT" />
+    </a>
+
+    <div class="social">
+      <a href="https://facebook.com/" target="_blank">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <use xlink:href="#facebook"></use>
+        </svg>
+      </a>
+
+      <a href="https://twitter.com/" target="_blank">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <use xlink:href="#twitter"></use>
+        </svg>
+      </a>
+
+      <a href="https://instagram.com/" target="_blank">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <use xlink:href="#instagram"></use>
+        </svg>
+      </a>
+
+      <a href="https://youtube.com/" target="_blank">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <use xlink:href="#youtube"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
 </footer>
+
+<div style="display: none;">
+  <? include 'svg.php'; ?>
+</div>
 
 <script src="<?=get_template_directory_URI()?>/app/app.js"></script>
 

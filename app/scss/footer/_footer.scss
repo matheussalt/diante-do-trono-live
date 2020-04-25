@@ -1,0 +1,51 @@
+.footer {
+  width: 100%;
+  padding: 32px 0 8px;
+  background-color: $lightGrey;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 16px;
+
+    img {
+      width: 100%;
+      max-width: 180px;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+
+  a {
+    padding: 16px;
+    box-sizing: content-box;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px 0;
+
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+
+      a {
+        margin: 0;
+      }
+    }
+  }
+}

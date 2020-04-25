@@ -1,0 +1,40 @@
+.sobre {
+  position: relative;
+  width: 100%;
+  padding: 32px 0 64px;
+  background-color: $red;
+  z-index: 1;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+  p {
+    max-width: 580px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .sobre {
+    padding: 64px 0 128px;
+    overflow: hidden;
+
+    img {
+      bottom: -20%;
+    }
+  }
+}
