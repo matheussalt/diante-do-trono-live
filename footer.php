@@ -17,25 +17,25 @@
     </a>
 
     <div class="social">
-      <a href="https://facebook.com/" target="_blank">
+      <a href="https://facebook.com/missaodt/" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#facebook"></use>
         </svg>
       </a>
 
-      <a href="https://twitter.com/" target="_blank">
+      <a href="https://twitter.com/diantedotrono" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#twitter"></use>
         </svg>
       </a>
 
-      <a href="https://instagram.com/" target="_blank">
+      <a href="https://instagram.com/missaodtoficial/" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#instagram"></use>
         </svg>
       </a>
 
-      <a href="https://youtube.com/" target="_blank">
+      <a href="https://youtube.com/dtoficial" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#youtube"></use>
         </svg>
