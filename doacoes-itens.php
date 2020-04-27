@@ -14,12 +14,19 @@
     <div class="doacoes-item-cta">
       <div class="doacoes-item-title">
         <img src="<?=get_template_directory_URI()?>/img/src/title-decoration.png" alt="Decoração de título" />
-        <h3>projeto tio pedro</h3>
+        <h3>Jocum (Tio Pedro)</h3>
+        <p>
+          Sugestão de doações:</br>
+          R$ 80,00 - Doação Cesta Básica</br>
+          R$ 35,00 - Doação Kit Higiene pessoal</br>
+          R$ 30,00 - Caixa de leite para mães com crianças</br>
+          Você poderá doar outros valores
+        </p>
       </div>
 
       <div class="doacoes-item-buttons">
-        <a href="#" class="btn btn-white">Doar</a>
-        <a href="#" class="btn">Saiba Mais</a>
+        <a href="http://jocumcontagem.org/doacao/" target="_blank" class="btn btn-white">Doar</a>
+        <a href="http://jocumcontagem.org/" target="_blank" class="btn">Saiba Mais</a>
       </div>
     </div>
   </div>
@@ -40,11 +47,17 @@
       <div class="doacoes-item-title">
         <img src="<?=get_template_directory_URI()?>/img/src/title-decoration.png" alt="Decoração de título" />
         <h3>sertão</h3>
+        <p>
+          Sugestão de doações:</br>
+          R$ 135,00 - Cesta básica completa</br>
+          R$ 68,00 - Meia cesta básica</br>
+          Você poderá doar outros valores
+        </p>
       </div>
 
       <div class="doacoes-item-buttons">
-        <a href="#" class="btn btn-white">Doar</a>
-        <a href="#" class="btn">Saiba Mais</a>
+        <a href="http://missaodt.org/apadrinhe/" target="_blank" class="btn btn-white">Doar</a>
+        <a href="http://missaodt.org/projeto-sertao-nordestino/" target="_blank" class="btn">Saiba Mais</a>
       </div>
     </div>
   </div>
@@ -65,11 +78,15 @@
       <div class="doacoes-item-title">
         <img src="<?=get_template_directory_URI()?>/img/src/title-decoration.png" alt="Decoração de título" />
         <h3>angola</h3>
+        <p>Sugestão de doações:</br>
+          R$ 100,00 - Cesta básica completa</br>
+          R$ 60,00 - Meia cesta básica</br>
+          Você poderá doar outros valores</p>
       </div>
 
       <div class="doacoes-item-buttons">
-        <a href="#" class="btn btn-white">Doar</a>
-        <a href="#" class="btn">Saiba Mais</a>
+        <a href="http://missaodt.org/apadrinhe/" target="_blank" class="btn btn-white">Doar</a>
+        <a href="http://missaodt.org/projeto-angola/" target="_blank" class="btn">Saiba Mais</a>
       </div>
     </div>
   </div>
@@ -89,12 +106,16 @@
     <div class="doacoes-item-cta">
       <div class="doacoes-item-title">
         <img src="<?=get_template_directory_URI()?>/img/src/title-decoration.png" alt="Decoração de título" />
-        <h3>hospital evangélico</h3>
+        <h3>hospital evangélico bh</h3>
+        <p>
+          Sugestão de doações:</br>
+          Doe o valor que você desejar por meio de transferência bancária. Clique em Doar para visualizar os dados.
+        </p>
       </div>
 
       <div class="doacoes-item-buttons">
-        <a href="#" class="btn btn-white">Doar</a>
-        <a href="#" class="btn">Saiba Mais</a>
+        <a href="<?=site_url()?>/doar-hospital" target="_blank" class="btn btn-white">Doar</a>
+        <a href="<?=site_url()?>/sobre-hospital" target="_blank" class="btn">Saiba Mais</a>
       </div>
     </div>
   </div>

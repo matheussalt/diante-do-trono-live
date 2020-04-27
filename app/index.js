@@ -1,7 +1,9 @@
 import './style.scss';
 import animacoes from './js/animacoes';
-import menu from './js/menu';
-import modal from './js/modal';
+import menuScroll from './js/menuScroll';
+import scrollTo from './js/scrollTo';
 import './js/modernizr';
 
 animacoes();
+menuScroll();
+scrollTo('.btn-doar', '.doacoes');

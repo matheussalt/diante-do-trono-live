@@ -42,18 +42,16 @@ get_header(); ?>
 
 <section class="sobre">
   <div class="container">
-    <h2 class="fadeUp" data-animar><span class="white">vamos unir forças</span>
-      e fazer a diferença</h2>
-    <p class="fadeUp" data-animar>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore
-      magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-      facilisis. </p>
-    <h2 class="fadeUp" data-animar><span class="white">como funciona</span>
-      a doação</h2>
-    <p class="fadeUp" data-animar>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore
-      magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-      facilisis. </p>
+    <h2 class="fadeUp" data-animar><span class="white">Vamos unir forças </span>
+      e fazer a diferença!</h2>
+    <p class="fadeUp" data-animar>Mesmo de casa é possível abençoar e aliviar o sofrimento de outros. A sua doação é a
+      esperança de um mundo melhor
+      para alguém.</p>
+    <h2 class="fadeUp" data-animar><span class="white">Como fazer </span>
+      a doação?</h2>
+    <p class="fadeUp" data-animar>Para doar, basta escolher um dos projetos abaixo, apoiados pela Missão DT. Em seguida,
+      escolher a forma de doar e o valor. Siga os passos para finalizar a sua doação.
+    </p>
   </div>
 
   <img src="<?=get_template_directory_URI()?>/img/src/comigo.svg" alt="Svg comigo" class="comigo" />

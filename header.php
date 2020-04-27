@@ -57,7 +57,7 @@
         <img src="<?=get_template_directory_URI()?>/img/src/logo-white.png" alt="Logotipo Missão DT" />
       </a>
 
-      <a href="#" class="btn">
+      <a href="#" class="btn btn-doar">
         Doar
       </a>
     </nav>
