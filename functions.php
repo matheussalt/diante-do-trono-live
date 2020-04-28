@@ -15,6 +15,8 @@ function wpassist_remove_block_library_css(){
 } 
 add_action( 'wp_enqueue_scripts', 'wpassist_remove_block_library_css' );
 
+add_theme_support( 'title-tag' );
+
 // Habilitar menus
 add_theme_support('menus');
 
