@@ -41,8 +41,8 @@
         <h3>sertão</h3>
         <p>
           Sugestão de doações:</br>
-          R$ 135,00 - Cesta básica completa</br>
-          R$ 68,00 - Meia cesta básica</br>
+          R$ 100,00 - Cesta básica completa</br>
+          R$ 60,00 - Meia cesta básica</br>
           Você poderá doar outros valores
         </p>
       </div>
@@ -67,8 +67,8 @@
         <img src="<?=get_template_directory_URI()?>/img/src/title-decoration.png" alt="Decoração de título" />
         <h3>angola</h3>
         <p>Sugestão de doações:</br>
-          R$ 100,00 - Cesta básica completa</br>
-          R$ 60,00 - Meia cesta básica</br>
+          R$ 135,00 - Cesta básica completa</br>
+          R$ 68,00 - Meia cesta básica</br>
           Você poderá doar outros valores</p>
       </div>
 
