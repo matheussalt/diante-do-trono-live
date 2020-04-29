@@ -29,7 +29,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="<?=get_template_directory_URI()?>/style.css" />
 
-  <link rel="icon" type="image/png" href="<?=get_template_directory_URI()?>/img/favicon.png" />
+  <link rel="icon" type="image/png" href="http://missaodt.org/img/favicon.png" />
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
